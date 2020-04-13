@@ -1,0 +1,8 @@
+C:\Users\osman\source\repos\HastaneOtomasyonu\HastaneOtomasyonu.Bussiness\bin\Debug\netstandard2.0\HastaneOtomasyonu.Bussiness.deps.json
+C:\Users\osman\source\repos\HastaneOtomasyonu\HastaneOtomasyonu.Bussiness\bin\Debug\netstandard2.0\HastaneOtomasyonu.Bussiness.dll
+C:\Users\osman\source\repos\HastaneOtomasyonu\HastaneOtomasyonu.Bussiness\bin\Debug\netstandard2.0\HastaneOtomasyonu.Bussiness.pdb
+C:\Users\osman\source\repos\HastaneOtomasyonu\HastaneOtomasyonu.Bussiness\obj\Debug\netstandard2.0\HastaneOtomasyonu.Bussiness.csprojAssemblyReference.cache
+C:\Users\osman\source\repos\HastaneOtomasyonu\HastaneOtomasyonu.Bussiness\obj\Debug\netstandard2.0\HastaneOtomasyonu.Bussiness.AssemblyInfoInputs.cache
+C:\Users\osman\source\repos\HastaneOtomasyonu\HastaneOtomasyonu.Bussiness\obj\Debug\netstandard2.0\HastaneOtomasyonu.Bussiness.AssemblyInfo.cs
+C:\Users\osman\source\repos\HastaneOtomasyonu\HastaneOtomasyonu.Bussiness\obj\Debug\netstandard2.0\HastaneOtomasyonu.Bussiness.dll
+C:\Users\osman\source\repos\HastaneOtomasyonu\HastaneOtomasyonu.Bussiness\obj\Debug\netstandard2.0\HastaneOtomasyonu.Bussiness.pdb

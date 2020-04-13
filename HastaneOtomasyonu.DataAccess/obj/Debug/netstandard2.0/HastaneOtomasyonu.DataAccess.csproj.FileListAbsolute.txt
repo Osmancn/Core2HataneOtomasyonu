@@ -1,0 +1,4 @@
+C:\Users\osman\source\repos\HastaneOtomasyonu\HastaneOtomasyonu.DataAccess\bin\Debug\netstandard2.0\HastaneOtomasyonu.Entity.dll
+C:\Users\osman\source\repos\HastaneOtomasyonu\HastaneOtomasyonu.DataAccess\obj\Debug\netstandard2.0\HastaneOtomasyonu.DataAccess.csprojAssemblyReference.cache
+C:\Users\osman\source\repos\HastaneOtomasyonu\HastaneOtomasyonu.DataAccess\obj\Debug\netstandard2.0\HastaneOtomasyonu.DataAccess.AssemblyInfoInputs.cache
+C:\Users\osman\source\repos\HastaneOtomasyonu\HastaneOtomasyonu.DataAccess\obj\Debug\netstandard2.0\HastaneOtomasyonu.DataAccess.AssemblyInfo.cs
