@@ -147,6 +147,8 @@ namespace HastaneOtomasyonu.DataAccess.Migrations
 
                     b.Property<int>("HastaId");
 
+                    b.Property<bool>("Iptal");
+
                     b.Property<DateTime>("RandevuTarihi");
 
                     b.HasKey("RandevuId");

@@ -4,6 +4,73 @@
     "C:\\Users\\osman\\source\\repos\\HastaneOtomasyonu\\HastaneOtomasyonu.WebAPI\\HastaneOtomasyonu.WebAPI.csproj": {}
   },
   "projects": {
+    "C:\\Users\\osman\\source\\repos\\HastaneOtomasyonu\\HastaneOtomasyonu.Bussiness\\HastaneOtomasyonu.Bussiness.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\osman\\source\\repos\\HastaneOtomasyonu\\HastaneOtomasyonu.Bussiness\\HastaneOtomasyonu.Bussiness.csproj",
+        "projectName": "HastaneOtomasyonu.Bussiness",
+        "projectPath": "C:\\Users\\osman\\source\\repos\\HastaneOtomasyonu\\HastaneOtomasyonu.Bussiness\\HastaneOtomasyonu.Bussiness.csproj",
+        "packagesPath": "C:\\Users\\osman\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\osman\\source\\repos\\HastaneOtomasyonu\\HastaneOtomasyonu.Bussiness\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\osman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\osman\\source\\repos\\HastaneOtomasyonu\\HastaneOtomasyonu.DataAccess\\HastaneOtomasyonu.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\osman\\source\\repos\\HastaneOtomasyonu\\HastaneOtomasyonu.DataAccess\\HastaneOtomasyonu.DataAccess.csproj"
+              },
+              "C:\\Users\\osman\\source\\repos\\HastaneOtomasyonu\\HastaneOtomasyonu.Entity\\HastaneOtomasyonu.Entity.csproj": {
+                "projectPath": "C:\\Users\\osman\\source\\repos\\HastaneOtomasyonu\\HastaneOtomasyonu.Entity\\HastaneOtomasyonu.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\osman\\source\\repos\\HastaneOtomasyonu\\HastaneOtomasyonu.DataAccess\\HastaneOtomasyonu.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -103,14 +170,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.0"
+          "netcoreapp2.2"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.0": {
+          "netcoreapp2.2": {
             "projectReferences": {}
           }
         },
@@ -121,12 +188,12 @@
         }
       },
       "frameworks": {
-        "netstandard2.0": {
+        "netcoreapp2.2": {
           "dependencies": {
-            "NETStandard.Library": {
+            "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.0.3, )",
+              "version": "[2.2.0, )",
               "autoReferenced": true
             }
           },
@@ -172,6 +239,9 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
+              "C:\\Users\\osman\\source\\repos\\HastaneOtomasyonu\\HastaneOtomasyonu.Bussiness\\HastaneOtomasyonu.Bussiness.csproj": {
+                "projectPath": "C:\\Users\\osman\\source\\repos\\HastaneOtomasyonu\\HastaneOtomasyonu.Bussiness\\HastaneOtomasyonu.Bussiness.csproj"
+              },
               "C:\\Users\\osman\\source\\repos\\HastaneOtomasyonu\\HastaneOtomasyonu.DataAccess\\HastaneOtomasyonu.DataAccess.csproj": {
                 "projectPath": "C:\\Users\\osman\\source\\repos\\HastaneOtomasyonu\\HastaneOtomasyonu.DataAccess\\HastaneOtomasyonu.DataAccess.csproj"
               }
@@ -203,6 +273,10 @@
               "target": "Package",
               "version": "[2.2.0, )",
               "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.4, )"
             }
           },
           "imports": [

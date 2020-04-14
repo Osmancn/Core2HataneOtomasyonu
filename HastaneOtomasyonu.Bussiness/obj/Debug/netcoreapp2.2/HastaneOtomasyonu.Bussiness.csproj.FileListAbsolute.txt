@@ -1,0 +1,13 @@
+C:\Users\osman\source\repos\HastaneOtomasyonu\HastaneOtomasyonu.Bussiness\bin\Debug\netcoreapp2.2\HastaneOtomasyonu.Bussiness.deps.json
+C:\Users\osman\source\repos\HastaneOtomasyonu\HastaneOtomasyonu.Bussiness\bin\Debug\netcoreapp2.2\HastaneOtomasyonu.Bussiness.dll
+C:\Users\osman\source\repos\HastaneOtomasyonu\HastaneOtomasyonu.Bussiness\bin\Debug\netcoreapp2.2\HastaneOtomasyonu.Bussiness.pdb
+C:\Users\osman\source\repos\HastaneOtomasyonu\HastaneOtomasyonu.Bussiness\bin\Debug\netcoreapp2.2\HastaneOtomasyonu.DataAccess.dll
+C:\Users\osman\source\repos\HastaneOtomasyonu\HastaneOtomasyonu.Bussiness\bin\Debug\netcoreapp2.2\HastaneOtomasyonu.Entity.dll
+C:\Users\osman\source\repos\HastaneOtomasyonu\HastaneOtomasyonu.Bussiness\bin\Debug\netcoreapp2.2\HastaneOtomasyonu.DataAccess.pdb
+C:\Users\osman\source\repos\HastaneOtomasyonu\HastaneOtomasyonu.Bussiness\bin\Debug\netcoreapp2.2\HastaneOtomasyonu.Entity.pdb
+C:\Users\osman\source\repos\HastaneOtomasyonu\HastaneOtomasyonu.Bussiness\obj\Debug\netcoreapp2.2\HastaneOtomasyonu.Bussiness.csprojAssemblyReference.cache
+C:\Users\osman\source\repos\HastaneOtomasyonu\HastaneOtomasyonu.Bussiness\obj\Debug\netcoreapp2.2\HastaneOtomasyonu.Bussiness.AssemblyInfoInputs.cache
+C:\Users\osman\source\repos\HastaneOtomasyonu\HastaneOtomasyonu.Bussiness\obj\Debug\netcoreapp2.2\HastaneOtomasyonu.Bussiness.AssemblyInfo.cs
+C:\Users\osman\source\repos\HastaneOtomasyonu\HastaneOtomasyonu.Bussiness\obj\Debug\netcoreapp2.2\HastaneOtomasyonu.Bussiness.csproj.CopyComplete
+C:\Users\osman\source\repos\HastaneOtomasyonu\HastaneOtomasyonu.Bussiness\obj\Debug\netcoreapp2.2\HastaneOtomasyonu.Bussiness.dll
+C:\Users\osman\source\repos\HastaneOtomasyonu\HastaneOtomasyonu.Bussiness\obj\Debug\netcoreapp2.2\HastaneOtomasyonu.Bussiness.pdb

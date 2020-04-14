@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using HastaneOtomasyonu.Bussiness.Abstract;
+using HastaneOtomasyonu.Bussiness.Concreate;
 using HastaneOtomasyonu.DataAccess.Abstract;
 using HastaneOtomasyonu.DataAccess.Concreat.Entityframework;
 using Microsoft.AspNetCore.Builder;
@@ -28,8 +30,22 @@ namespace HastaneOtomasyonu.WebAPI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
-
+            //DataAccess service
             services.AddTransient<IAdminRepository, AdminRepository>();
+            services.AddTransient<IBolumRepository, BolumRepository>();
+            services.AddTransient<IDoktorRepository, DoktorRepository>();
+            services.AddTransient<IHastaneRepository,HastaneRepository>();
+            services.AddTransient<IHastaRepository, HastaRepository>();
+            services.AddTransient<IIlRepository, IlRepository>();
+            services.AddTransient<IRandevuRepository, RandevuRepository>();
+            //Bussiness service
+            services.AddTransient<IAdminService, AdminManager>();
+            services.AddTransient<IBolumService, BolumManager>();
+            services.AddTransient<IDoktorService, DoktorManager>();
+            services.AddTransient<IHastaneService, HastaneManager>();
+            services.AddTransient<IHastaService, HastaManager>();
+            services.AddTransient<IIlService, IlManager>();
+            services.AddTransient<IRandevuService, RandevuManager>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

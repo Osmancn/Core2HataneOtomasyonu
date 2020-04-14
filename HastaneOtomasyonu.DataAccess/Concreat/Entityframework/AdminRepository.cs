@@ -10,6 +10,6 @@ namespace HastaneOtomasyonu.DataAccess.Concreat.Entityframework
 {
     public class AdminRepository : GenericRepository<Admin,HastaneOtomasyonuDbContext>, IAdminRepository
     {
-       
+        
     }
 }
