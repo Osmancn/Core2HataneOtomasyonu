@@ -19,7 +19,10 @@ namespace HastaneOtomasyonu.Bussiness.Concreate
         {
             DoktorRepo.Create(entity);
         }
-
+        public Doktor GetByDoktor(string tc, string Parola)
+        {
+            return DoktorRepo.GetOne(i => i.TC == tc && i.Parola == Parola);
+        }
         public void Delete(Doktor entity)
         {
             DoktorRepo.Delete(entity);
@@ -38,6 +41,11 @@ namespace HastaneOtomasyonu.Bussiness.Concreate
         public void Update(Doktor entity)
         {
             DoktorRepo.Update(entity);
+        }
+
+        public bool GetByTc(string tc)
+        {
+            return DoktorRepo.GetOne(i => i.TC == tc) == null ? false : true;
         }
     }
 }

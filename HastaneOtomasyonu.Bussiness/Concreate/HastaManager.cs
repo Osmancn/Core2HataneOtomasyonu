@@ -39,5 +39,9 @@ namespace HastaneOtomasyonu.Bussiness.Concreate
         {
             repo.Update(entity);
         }
+        public bool GetByTc(string tc)
+        {
+            return repo.GetOne(i => i.TC == tc) == null ? false : true;
+        }
     }
 }

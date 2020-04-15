@@ -9,6 +9,8 @@ namespace HastaneOtomasyonu.Bussiness.Abstract
     {
         Doktor GetById(int DoktorId);
         List<Doktor> GetByBolumId(int BolumId);
+        Doktor GetByDoktor(string tc, string Parola);
+        bool GetByTc(string tc);
         void Create(Doktor entity);
         void Delete(Doktor entity);
         void Update(Doktor entity);
