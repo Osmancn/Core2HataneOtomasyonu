@@ -1,7 +1,0 @@
-C:\Users\osman\source\repos\HastaneOtomasyonu\HastaneOtomasyonu.Entity\bin\Debug\netcoreapp2.2\HastaneOtomasyonu.Entity.deps.json
-C:\Users\osman\source\repos\HastaneOtomasyonu\HastaneOtomasyonu.Entity\bin\Debug\netcoreapp2.2\HastaneOtomasyonu.Entity.dll
-C:\Users\osman\source\repos\HastaneOtomasyonu\HastaneOtomasyonu.Entity\bin\Debug\netcoreapp2.2\HastaneOtomasyonu.Entity.pdb
-C:\Users\osman\source\repos\HastaneOtomasyonu\HastaneOtomasyonu.Entity\obj\Debug\netcoreapp2.2\HastaneOtomasyonu.Entity.AssemblyInfoInputs.cache
-C:\Users\osman\source\repos\HastaneOtomasyonu\HastaneOtomasyonu.Entity\obj\Debug\netcoreapp2.2\HastaneOtomasyonu.Entity.AssemblyInfo.cs
-C:\Users\osman\source\repos\HastaneOtomasyonu\HastaneOtomasyonu.Entity\obj\Debug\netcoreapp2.2\HastaneOtomasyonu.Entity.dll
-C:\Users\osman\source\repos\HastaneOtomasyonu\HastaneOtomasyonu.Entity\obj\Debug\netcoreapp2.2\HastaneOtomasyonu.Entity.pdb

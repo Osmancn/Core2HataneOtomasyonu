@@ -1,0 +1,31 @@
+﻿
+<header class="header">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" asp-controller="Home">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarColor02">
+            <ul class="navbar-nav  mr-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Admin" asp-action="HastaneIslem">Hastane İşlemleri</a>
+                </li>
+                <li class="nav-item end">
+                    <a class="nav-link" asp-controller="Admin" asp-action="BolumIslem">Bölüm İşlemleri</a>
+                </li>
+                <li class="nav-item end">
+                    <a class="nav-link" asp-controller="Admin" asp-action="DoktorIslem">Doktor İşlemleri</a>
+                </li>
+                <li class="nav-item end">
+                    <a class="nav-link" asp-controller="Admin" asp-action="HastaIslem">Hasta İşlemleri</a>
+                </li>
+                <li class="nav-item end">
+                    <a class="nav-link" asp-controller="Admin" asp-action="Cikis">Çıkış</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>

@@ -1,0 +1,38 @@
+﻿@model GirisViewModel
+@{
+    ViewData["Title"] = "Giris";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section Scripts{
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.11/jquery.validate.unobtrusive.js"></script>
+    <script>
+        $(function () {
+            $("input.input-validation-error")
+                .closest(".form-group")
+                .addClass("has-danger");
+        });
+    </script>
+}
+<div class="container">
+    <h2>Doktor Girişi</h2>
+    <hr />
+    <div class="row">
+        <div class="col">
+            <form asp-action="Giris" method="post">
+                <div class="text-danger" asp-validation-summary="All"></div>
+                <div class="form-group">
+                    <label asp-for="Tc">Tc Kimlik No</label>
+                    <input asp-for="Tc" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label asp-for="Parola">Parola</label>
+                    <input asp-for="Parola" class="form-control" />
+                </div>
+                <button type="submit" class="btn btn-primary">Giriş Yap</button>
+            </form>
+        </div>
+    </div>
+</div>
+

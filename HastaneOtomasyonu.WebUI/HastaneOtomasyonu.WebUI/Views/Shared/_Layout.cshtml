@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    @RenderSection("Head", false)
+</head>
+<body>
+    <div class="super_container">
+
+        @await Component.InvokeAsync("Header")
+        
+        <div>
+            @RenderBody()
+        </div>
+
+
+    </div>
+
+
+    @RenderSection("Scripts", false)
+
+</body>
+</html>
