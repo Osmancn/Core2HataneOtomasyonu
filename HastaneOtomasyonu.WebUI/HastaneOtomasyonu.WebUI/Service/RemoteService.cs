@@ -79,5 +79,39 @@ namespace HastaneOtomasyonu.WebUI.Service
             return response.Data;
         }
 
+        public ServiceResponse<T> Put(object obj, string controller, string action = null)
+        {
+            string url = uri + "/" + controller;
+            if (action != null)
+                url += "/" + action;
+
+            string json = JsonConvert.SerializeObject(obj);
+
+            var client = new RestClient(url);
+            client.Timeout = -1;
+            var request = new RestRequest(Method.PUT);
+            request.AddHeader("Content-Type", "application/json");
+            request.AddParameter("application/json", json, ParameterType.RequestBody);
+            IRestResponse<ServiceResponse<T>> response = client.Execute<ServiceResponse<T>>(request);
+            return response.Data;
+        }
+
+        public ServiceResponse<T> Delete(object obj, string controller, string action = null)
+        {
+            string url = uri + "/" + controller;
+            if (action != null)
+                url += "/" + action;
+
+            string json = JsonConvert.SerializeObject(obj);
+            var client = new RestClient(url);
+            client.Timeout = -1;
+            var request = new RestRequest(Method.DELETE);
+            request.AddHeader("Content-Type", "application/json");
+            request.AddParameter("application/json", json, ParameterType.RequestBody);
+            IRestResponse<ServiceResponse<T>> response = client.Execute<ServiceResponse<T>>(request);
+            return response.Data;
+        }
+
+
     }
 }

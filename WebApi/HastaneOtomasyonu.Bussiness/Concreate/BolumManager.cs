@@ -28,6 +28,11 @@ namespace HastaneOtomasyonu.Bussiness.Concreate
             BolumRepo.Delete(entity);
         }
 
+        public List<Bolum> GetAll()
+        {
+            return BolumRepo.GetAll().ToList();
+        }
+
         public List<Bolum> GetByHastaneId(int hastaneId)
         {
             List<Bolum> bolumler;

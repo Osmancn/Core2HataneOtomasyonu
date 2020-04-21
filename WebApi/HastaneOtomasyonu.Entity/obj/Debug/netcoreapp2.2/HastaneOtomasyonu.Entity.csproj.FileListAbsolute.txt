@@ -13,3 +13,4 @@ C:\Users\osman\source\repos\HastaneOtomasyonu\WebApi\HastaneOtomasyonu.Entity\ob
 C:\Users\osman\source\repos\HastaneOtomasyonu\WebApi\HastaneOtomasyonu.Entity\obj\Debug\netcoreapp2.2\HastaneOtomasyonu.Entity.AssemblyInfo.cs
 C:\Users\osman\source\repos\HastaneOtomasyonu\WebApi\HastaneOtomasyonu.Entity\obj\Debug\netcoreapp2.2\HastaneOtomasyonu.Entity.dll
 C:\Users\osman\source\repos\HastaneOtomasyonu\WebApi\HastaneOtomasyonu.Entity\obj\Debug\netcoreapp2.2\HastaneOtomasyonu.Entity.pdb
+C:\Users\osman\source\repos\HastaneOtomasyonu\WebApi\HastaneOtomasyonu.Entity\obj\Debug\netcoreapp2.2\HastaneOtomasyonu.Entity.csproj.CoreCompileInputs.cache

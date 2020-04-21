@@ -19,6 +19,7 @@ namespace HastaneOtomasyonu.Bussiness.Concreate
         {
             DoktorRepo.Create(entity);
         }
+
         public Doktor GetByDoktor(string tc, string Parola)
         {
             return DoktorRepo.GetOne(i => i.TC == tc && i.Parola == Parola);
@@ -46,6 +47,11 @@ namespace HastaneOtomasyonu.Bussiness.Concreate
         public bool GetByTc(string tc)
         {
             return DoktorRepo.GetOne(i => i.TC == tc) == null ? false : true;
+        }
+
+        public List<Doktor> GetAll()
+        {
+            return DoktorRepo.GetAll().ToList();
         }
     }
 }

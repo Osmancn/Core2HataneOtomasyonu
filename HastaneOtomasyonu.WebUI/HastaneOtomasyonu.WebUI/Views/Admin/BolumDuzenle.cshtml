@@ -1,0 +1,31 @@
+﻿@model Bolum
+@{
+    ViewData["Title"] = "Bölüm Duzenle";
+}
+
+<div class="container">
+    <h2>Bölüm Düzenle</h2>
+    <hr />
+    <div class="row">
+        <div class="col">
+            <form asp-action="BolumDuzenle" method="post">
+                <input type="hidden" asp-for="BolumId" />
+                <input type="hidden" asp-for="HastaneId" />
+                <div class="form-group">
+                    <label asp-for="BolumAdi">Bölüm Adı</label>
+                    <input asp-for="BolumAdi" class="form-control" />
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="HastaneId">Hastane</label>
+                    <select class="form-control" asp-for="HastaneId" asp-items="ViewBag.hastaneler">
+                        <option disabled selected value="">Bölüm Seçiniz</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+                <a class="btn btn-warning" asp-action="BolumListesi">İptal</a>
+            </form>
+        </div>
+    </div>
+</div>
+

@@ -41,6 +41,25 @@ namespace HastaneOtomasyonu.WebAPI.Controllers
             }
         }
 
+        [HttpGet("getall")]
+        public IActionResult GetAll()
+        {
+            ServiceResponse<Doktor> response = new ServiceResponse<Doktor>();
+            List<Doktor> doktorlar = service.GetAll();
+            if (doktorlar == null)
+            {
+                response.Errors.Add("doktorlar getirilemedi");
+                response.HasError = true;
+                return BadRequest(response);
+            }
+            else
+            {
+                response.entities = doktorlar;
+                response.IsSuccessful = true;
+                return Ok(response);
+            }
+        }
+
         [HttpGet("GetByBolumId/{id}")]
         public IActionResult GetByBolumId(int id)
         {

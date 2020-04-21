@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\osman\\source\\repos\\HastaneOtomasyonu.WebUI\\HastaneOtomasyonu.WebUI\\HastaneOtomasyonu.WebUI.csproj": {}
+    "C:\\Users\\osman\\source\\repos\\HastaneOtomasyonu\\HastaneOtomasyonu.WebUI\\HastaneOtomasyonu.WebUI\\HastaneOtomasyonu.WebUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\osman\\source\\repos\\HastaneOtomasyonu.WebUI\\HastaneOtomasyonu.WebUI\\HastaneOtomasyonu.WebUI.csproj": {
+    "C:\\Users\\osman\\source\\repos\\HastaneOtomasyonu\\HastaneOtomasyonu.WebUI\\HastaneOtomasyonu.WebUI\\HastaneOtomasyonu.WebUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\osman\\source\\repos\\HastaneOtomasyonu.WebUI\\HastaneOtomasyonu.WebUI\\HastaneOtomasyonu.WebUI.csproj",
+        "projectUniqueName": "C:\\Users\\osman\\source\\repos\\HastaneOtomasyonu\\HastaneOtomasyonu.WebUI\\HastaneOtomasyonu.WebUI\\HastaneOtomasyonu.WebUI.csproj",
         "projectName": "HastaneOtomasyonu.WebUI",
-        "projectPath": "C:\\Users\\osman\\source\\repos\\HastaneOtomasyonu.WebUI\\HastaneOtomasyonu.WebUI\\HastaneOtomasyonu.WebUI.csproj",
+        "projectPath": "C:\\Users\\osman\\source\\repos\\HastaneOtomasyonu\\HastaneOtomasyonu.WebUI\\HastaneOtomasyonu.WebUI\\HastaneOtomasyonu.WebUI.csproj",
         "packagesPath": "C:\\Users\\osman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\osman\\source\\repos\\HastaneOtomasyonu.WebUI\\HastaneOtomasyonu.WebUI\\obj\\",
+        "outputPath": "C:\\Users\\osman\\source\\repos\\HastaneOtomasyonu\\HastaneOtomasyonu.WebUI\\HastaneOtomasyonu.WebUI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -79,7 +79,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -24,3 +24,5 @@ C:\Users\osman\source\repos\HastaneOtomasyonu\WebApi\HastaneOtomasyonu.DataAcces
 C:\Users\osman\source\repos\HastaneOtomasyonu\WebApi\HastaneOtomasyonu.DataAccess\obj\Debug\netcoreapp2.2\HastaneOtomasyonu.DataAccess.csproj.CopyComplete
 C:\Users\osman\source\repos\HastaneOtomasyonu\WebApi\HastaneOtomasyonu.DataAccess\obj\Debug\netcoreapp2.2\HastaneOtomasyonu.DataAccess.dll
 C:\Users\osman\source\repos\HastaneOtomasyonu\WebApi\HastaneOtomasyonu.DataAccess\obj\Debug\netcoreapp2.2\HastaneOtomasyonu.DataAccess.pdb
+C:\Users\osman\source\repos\HastaneOtomasyonu\WebApi\HastaneOtomasyonu.DataAccess\obj\Debug\netcoreapp2.2\HastaneOtomasyonu.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\osman\source\repos\HastaneOtomasyonu\WebApi\HastaneOtomasyonu.DataAccess\obj\Debug\netcoreapp2.2\HastaneOtomasyonu.DataAccess.genruntimeconfig.cache

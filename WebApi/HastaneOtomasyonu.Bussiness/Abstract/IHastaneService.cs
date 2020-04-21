@@ -9,6 +9,7 @@ namespace HastaneOtomasyonu.Bussiness.Abstract
     {
         Hastane GetById(int hastaneId);
         List<Hastane> GetByIlId(int ilID);
+        List<Hastane> GetAll();
         void Create(Hastane entity);
         void Update(Hastane entity);
         void Delete(Hastane entity);

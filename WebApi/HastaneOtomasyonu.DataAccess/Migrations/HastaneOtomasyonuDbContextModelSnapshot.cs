@@ -111,28 +111,28 @@ namespace HastaneOtomasyonu.DataAccess.Migrations
 
                     b.Property<string>("HastaneAdresi");
 
-                    b.Property<int>("IlId");
+                    b.Property<int>("ilId");
 
                     b.HasKey("HastaneId");
 
-                    b.HasIndex("IlId");
+                    b.HasIndex("ilId");
 
                     b.ToTable("Hastaneler");
                 });
 
             modelBuilder.Entity("HastaneOtomasyonu.Entity.Il", b =>
                 {
-                    b.Property<int>("IlId")
+                    b.Property<int>("ilId")
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("IlAdi");
 
                     b.Property<string>("PlakaNo");
 
                     b.Property<string>("TelefonKodu");
 
-                    b.HasKey("IlId");
+                    b.Property<string>("ilAdi");
+
+                    b.HasKey("ilId");
 
                     b.ToTable("Iller");
                 });
@@ -178,9 +178,9 @@ namespace HastaneOtomasyonu.DataAccess.Migrations
 
             modelBuilder.Entity("HastaneOtomasyonu.Entity.Hastane", b =>
                 {
-                    b.HasOne("HastaneOtomasyonu.Entity.Il", "Il")
+                    b.HasOne("HastaneOtomasyonu.Entity.Il", "il")
                         .WithMany()
-                        .HasForeignKey("IlId")
+                        .HasForeignKey("ilId")
                         .OnDelete(DeleteBehavior.Cascade);
                 });
 

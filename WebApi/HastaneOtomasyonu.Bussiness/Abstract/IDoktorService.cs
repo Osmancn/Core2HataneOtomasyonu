@@ -8,6 +8,7 @@ namespace HastaneOtomasyonu.Bussiness.Abstract
     public interface IDoktorService
     {
         Doktor GetById(int DoktorId);
+        List<Doktor> GetAll();
         List<Doktor> GetByBolumId(int BolumId);
         Doktor GetByDoktor(string tc, string Parola);
         bool GetByTc(string tc);

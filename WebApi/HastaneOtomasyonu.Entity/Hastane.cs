@@ -10,8 +10,8 @@ namespace HastaneOtomasyonu.Entity
         public string HastaneAdi { get; set; }
         public string HastaneAdresi { get; set; }
 
-        public int IlId { get; set; }
-        public virtual Il Il { get; set; }
+        public int ilId { get; set; }
+        public virtual Il il { get; set; }
 
         public virtual ICollection<Bolum> Bolumler { get; set; }
 

@@ -26,6 +26,11 @@ namespace HastaneOtomasyonu.Bussiness.Concreate
             Repo.Delete(entity);
         }
 
+        public List<Hastane> GetAll()
+        {
+            return Repo.GetAll().ToList();
+        }
+
         public Hastane GetById(int hastaneId)
         {
             return Repo.GetById(hastaneId);
@@ -33,7 +38,7 @@ namespace HastaneOtomasyonu.Bussiness.Concreate
 
         public List<Hastane> GetByIlId(int ilID)
         {
-            return Repo.GetAll(i=>i.IlId==ilID).ToList();
+            return Repo.GetAll(i=>i.ilId==ilID).ToList();
         }
 
         public void Update(Hastane entity)

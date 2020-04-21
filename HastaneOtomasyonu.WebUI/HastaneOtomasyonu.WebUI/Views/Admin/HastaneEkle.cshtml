@@ -1,0 +1,34 @@
+﻿@model Hastane
+@{
+    ViewData["Title"] = "HastaneEkle";
+}
+
+<div class="container">
+    <h2>Hastane Ekle</h2>
+    <hr />
+    <div class="row">
+        <div class="col">
+            <form asp-action="HastaneEkle" method="post" >
+                <div class="form-group">
+                    <label asp-for="HastaneAdi">Hastane Adı</label>
+                    <input asp-for="HastaneAdi" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label asp-for="HastaneAdresi">Adres</label>
+                    <textarea asp-for="HastaneAdresi" class="form-control"></textarea>
+                </div>
+              
+                <div class="form-group">
+                    <label asp-for="ilId">il</label>
+                    <select class="form-control" asp-for="ilId" asp-items="ViewBag.Iller">
+                        <option disabled selected value="">Il Seçiniz</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+                <a class="btn btn-warning" asp-action="HastaneListesi">İptal</a>
+            </form>
+        </div>
+    </div>
+</div>
+
+

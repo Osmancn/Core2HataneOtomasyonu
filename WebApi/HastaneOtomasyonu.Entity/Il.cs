@@ -7,8 +7,8 @@ namespace HastaneOtomasyonu.Entity
     public class Il
     {
         // IlId, IlAdi, PlakaNo, TelefonKodu
-        public int IlId { get; set; }
-        public string IlAdi { get; set; }
+        public int ilId { get; set; }
+        public string ilAdi { get; set; }
         public string PlakaNo { get; set; }
         public string TelefonKodu { get; set; }
     }

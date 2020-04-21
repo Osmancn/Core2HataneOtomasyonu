@@ -1,0 +1,51 @@
+﻿@model Doktor
+@{
+    ViewData["Title"] = "Doktor Duzenle";
+}
+
+<div class="container">
+    <h2>Doktor Düzenle</h2>
+    <hr />
+    <div class="row">
+        <div class="col">
+            <form asp-action="DoktorDuzenle" method="post">
+                <input type="hidden" asp-for="BolumId" />
+                <input type="hidden" asp-for="DoktorId" />
+                <div class="form-group">
+                    <label asp-for="Ad">Doktor Adı</label>
+                    <input asp-for="Ad" class="form-control" />
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Soyad">Doktor Soyad</label>
+                    <input asp-for="Soyad" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label asp-for="TC">Doktor Tc</label>
+                    <input asp-for="TC" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label asp-for="Email">Doktor Email</label>
+                    <input asp-for="Email" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label asp-for="Parola">Doktor Parola</label>
+                    <input asp-for="Parola" class="form-control" />
+                </div>
+                <div class="custom-radio form-group">
+                    <input asp-for="Cinsiyet" />
+                    <Label asp-for="Cinsiyet" class="form-check-label">Erkekmi</Label>
+                </div>
+                <div class="form-group">
+                    <label asp-for="BolumId">Hastane</label>
+                    <select class="form-control" asp-for="BolumId" asp-items="ViewBag.bolumler">
+                        <option disabled selected value="">Bölüm Seçiniz</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+                <a class="btn btn-warning" asp-action="DoktorListesi">İptal</a>
+            </form>
+        </div>
+    </div>
+</div>
+

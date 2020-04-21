@@ -1,0 +1,70 @@
+﻿@model Bolum
+@{
+    ViewData["Title"] = "BolumEkle";
+}
+
+<div class="container">
+    <h2>Bölüm Ekle</h2>
+    <hr />
+    <div class="row">
+        <div class="col">
+            <form asp-action="BolumEkle" method="post">
+                <div class="form-group">
+                    <label asp-for="BolumAdi">Bolum Adı</label>
+                    <input asp-for="BolumAdi" class="form-control" />
+                </div>
+
+                <div class="form-group">
+                    <label>İller</label>
+                    <select class="form-control" asp-items="ViewBag.iller" id="selectedIlId">
+                        <option disabled selected value="">İl Seçiniz</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label asp-for="HastaneId">Hastane</label>
+                    <select class="form-control" asp-for="HastaneId" asp-items="ViewBag.hastaneler">
+                        <option disabled selected value="">Hastane Seçiniz</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+                <a class="btn btn-warning" asp-action="BolumListesi">İptal</a>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts{
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script>
+        $("#selectedIlId").change(function () {
+            var ddlIl = $(this);
+            var IlId = ddlIl.val();
+            if (IlId != "" | IlId != "-1") {
+                $("#HastaneId option").not(":first").remove();
+
+                $.ajax({
+                    method: "GET",
+                    url: '@Url.Action("HastanelerGetByIlId")'+'/' + IlId
+                }).done(function (result) {
+
+                    var ddlHastane = $("#HastaneId");
+
+                    for (var i = 0; i < result.length; i++) {
+                        var HastaneAdi = result[i].hastaneAdi;
+                        var HastaneId = result[i].hastaneId;
+
+                        var opt = $("<option></option>");
+                        opt.text(HastaneAdi);
+                        opt.attr("value", HastaneId);
+                        ddlHastane.append(opt);
+                    }
+
+                })
+            }
+            else {
+                 $("#HastaneId option").not(":first").remove();
+            }
+        });
+    </script>
+}

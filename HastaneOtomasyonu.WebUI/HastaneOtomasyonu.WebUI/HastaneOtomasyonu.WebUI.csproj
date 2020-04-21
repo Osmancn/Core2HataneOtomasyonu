@@ -16,13 +16,8 @@
 
   <ItemGroup>
     <Reference Include="HastaneOtomasyonu.Entity">
-      <HintPath>..\..\HastaneOtomasyonu\HastaneOtomasyonu.Entity\bin\Debug\netcoreapp2.2\HastaneOtomasyonu.Entity.dll</HintPath>
+      <HintPath>..\..\WebApi\HastaneOtomasyonu.Entity\bin\Debug\netcoreapp2.2\HastaneOtomasyonu.Entity.dll</HintPath>
     </Reference>
-  </ItemGroup>
-
-
-  <ItemGroup>
-    <Folder Include="Views\Admin\" />
   </ItemGroup>
 
 </Project>
